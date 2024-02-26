@@ -1,0 +1,27 @@
+"D:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe" -G "MinGW Makefiles" -S E:\Download\UartDMA\UartDMA -B E:\Download\UartDMA\UartDMA\cmake-build-debug-mingw-for-stm32
+-- Minimal optimization, debug info included
+-- Configuring done (0.2s)
+You have changed variables that require your cache to be deleted.
+Configure will be re-run and you may have to reset some variables.
+The following variables have changed:
+CMAKE_C_COMPILER= C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe
+CMAKE_CXX_COMPILER= C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe
+
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/Download/UartDMA/UartDMA/cmake-build-debug-mingw-for-stm32

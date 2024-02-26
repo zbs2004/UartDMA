@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UartDMA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UartDMA.elf">
+				<Option output="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/UartDMA.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F405xx"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Core/Inc"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 UartDMA.elf"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UartDMA.elf/fast">
+				<Option output="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/UartDMA.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F405xx"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Core/Inc"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 UartDMA.elf/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Inc/dma.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Inc/gpio.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Inc/main.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Inc/stm32f4xx_it.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Inc/usart.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/dma.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/gpio.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/main.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/stm32f4xx_it.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/syscalls.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/sysmem.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/system_stm32f4xx.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Src/usart.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Core/Startup/startup_stm32f405rgtx.s">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/CMSIS/LICENSE.txt">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/STM32F405RGTX_FLASH.ld">
+			<Option target="UartDMA.elf"/>
+		</Unit>
+		<Unit filename="E:/Download/UartDMA/UartDMA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
