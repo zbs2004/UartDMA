@@ -7,11 +7,11 @@ ASM_DEFINES = -DDEBUG -DSTM32F405xx -DUSE_HAL_DRIVER
 
 ASM_INCLUDES = -IE:\Download\UartDMA\UartDMA\Core\Inc -IE:\Download\UartDMA\UartDMA\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\Download\UartDMA\UartDMA\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\Download\UartDMA\UartDMA\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\Download\UartDMA\UartDMA\Drivers\CMSIS\Include
 
-ASM_FLAGS = -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
+ASM_FLAGS = -O3 -DNDEBUG -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Ofast
 
 C_DEFINES = -DDEBUG -DSTM32F405xx -DUSE_HAL_DRIVER
 
 C_INCLUDES = -IE:\Download\UartDMA\UartDMA\Core\Inc -IE:\Download\UartDMA\UartDMA\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\Download\UartDMA\UartDMA\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\Download\UartDMA\UartDMA\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\Download\UartDMA\UartDMA\Drivers\CMSIS\Include
 
-C_FLAGS = -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Ofast
 

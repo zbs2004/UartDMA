@@ -8,23 +8,6 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- Maximum optimization for speed
--- Configuring done (0.2s)
-You have changed variables that require your cache to be deleted.
-Configure will be re-run and you may have to reset some variables.
-The following variables have changed:
-CMAKE_C_COMPILER= C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe
-CMAKE_CXX_COMPILER= C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe
-
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
-
-    CodeBlocks
-
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
-
-
 -- The C compiler identification is GNU 12.3.1
 -- The CXX compiler identification is GNU 12.3.1
 -- The ASM compiler identification is GNU
@@ -39,7 +22,7 @@ CMake Deprecation Warning:
 -- Check for working CXX compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Minimal optimization, debug info included
--- Configuring done (2.4s)
+-- Maximum optimization for speed
+-- Configuring done (2.7s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/Download/UartDMA/UartDMA/cmake-build-release-mingw-for-stm32
