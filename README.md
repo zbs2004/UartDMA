@@ -65,7 +65,8 @@
         <li><a href="#安装">安装</a></li>
       </ul>
     </li>
-    <li><a href="#代码详情">代码详情</a></li>
+    <li>
+      <a href="#代码详情">代码详情</a>
       <ul>
         <li><a href="#stm32cubemx配置">STM32CubeMX配置</a></li>
         <li><a href="#clion编译openocd烧录">Clion编译&openocd烧录</a></li>
@@ -74,6 +75,7 @@
         <li><a href="#dma发送">DMA发送</a></li>
         <li><a href="#测试函数">测试函数</a></li>
       </ul>
+    </li>
     <li><a href="#贡献">贡献</a></li>
     <li><a href="#联系我们">联系我们</a></li>
     <li><a href="#致谢">致谢</a></li>
