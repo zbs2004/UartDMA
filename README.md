@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/zbs2004/UartDMA">
     <img src="images/icon.png" alt="Logo" width="100" height="100">
   </a>
 
